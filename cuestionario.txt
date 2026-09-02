@@ -1,0 +1,44 @@
+1- Django es un framework de desarrollo web usado para desarrollar aplicaciones web de principio a fin en cuestión de horas, ya que se encarga de una gran parte
+de las complejidades del desarrollo web para que este sea más sencillo.
+
+2- El patrón MTV es un diseño de software que usa el framework de Django para separar los datos, la lógica y la interfaz de usuario. Sus componentes son los 
+modelos (gestionan la lógica de datos y la estructura de su base de datos), la vista (recibe las peticiones del usuario, pide los datos al modelo y decide qué 
+respuesta enviar) y las plantillas (gestionan el diseño y la estructura de la aplicación). Una diferencia con MVC es que en MVT el usuario hace una solicitud, 
+la vista la procesa, interactúa con el modelo para buscar datos y combina los datos con la plantilla para generar la respuesta, y en mvt, la solicitud es 
+procesada por un controlador, que consulta al modelo y en base a esto actualiza la vista.
+
+3- Una app en Django es un módulo de código independiente que cumple una función en un sitio web. Cada app agrupa sus propios archivos de lógica, base de datos 
+y diseño por separado, se pueden tomar y usar en proyectos distintos y facilitan corregir errores y agregar funciones sin afectar al resto del sistema.
+
+4- El flujo request-response en Django es el ciclo básico de comunicación donde un cliente envía una petición HTTP al servidor y este procesa la información 
+para devolver un resultado. Tiene diferentes fases: 
+Solicitud: El usuario envía datos como una URL o un formulario y Django lo convierte en un objeto HttpRequest
+Middleware de entrada: Hay filtros que captan la solicitud para aplicar seguridad o autenticación.
+Enrutador: Lee la URL solicitada y busca la función de vista que le corresponde
+Vista: Procesa los datos, consulta la base de datos y genera una respuesta.
+Middleware de salida: Analiza el objeto de respuesta antes de enviarlo a la red.
+Respuesta: Django crea un objeto HttpResponse que el servidor web entrega al cliente
+
+5- El ORM es la técnica de abstraer la conexión entre las entidades del lenguaje de programación y sus elementos correspondientes de base de datos. Traduce los 
+datos de los objetos a la base de datos subyacente, abstrayendo los detalles de la base de datos del programador. De esta forma, el código permanece inalterado 
+incluso si las bases de datos subyacentes se intercambian por diseños nuevos o diferentes.
+
+6-Las plantillas de Django permiten separar la presentación visual de su sitio web del código subyacente. Una plantilla contiene las partes estáticas del 
+resultado HTML que se desea y una sintaxis especial que describe cómo se insertará el contenido dinámico. 
+
+8- Para instalar Django primero se necesita instalar Python, se puede instalar ejecutando en la terminal el comando python -m pip install Django 
+
+https://www.djangoproject.com/start/overview/
+
+https://angelogentileiii.medium.com/basics-of-django-model-view-template-mvt-architecture-8585aecffbf6
+
+https://dev.to/mavoochie/mvt-vs-mvc-architecture-25ma
+
+https://www.w3schools.com/django/django_create_app.php
+
+https://medium.com/@sarthaksx/django-request-response-cycle-2626e9e8606e
+
+https://aws.amazon.com/what-is/object-relational-mapping/
+
+https://blog.jetbrains.com/es/pycharm/2025/06/la-guia-definitiva-de-las-plantillas-de-django/
+
