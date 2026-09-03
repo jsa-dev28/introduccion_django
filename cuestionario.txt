@@ -11,7 +11,7 @@ procesada por un controlador, que consulta al modelo y en base a esto actualiza 
 y diseño por separado, se pueden tomar y usar en proyectos distintos y facilitan corregir errores y agregar funciones sin afectar al resto del sistema.
 
 4- El flujo request-response en Django es el ciclo básico de comunicación donde un cliente envía una petición HTTP al servidor y este procesa la información 
-para devolver un resultado. Tiene diferentes fases: 
+para devolver un resultado. Tiene diferentes fases:
 Solicitud: El usuario envía datos como una URL o un formulario y Django lo convierte en un objeto HttpRequest
 Middleware de entrada: Hay filtros que captan la solicitud para aplicar seguridad o autenticación.
 Enrutador: Lee la URL solicitada y busca la función de vista que le corresponde
@@ -41,4 +41,3 @@ https://medium.com/@sarthaksx/django-request-response-cycle-2626e9e8606e
 https://aws.amazon.com/what-is/object-relational-mapping/
 
 https://blog.jetbrains.com/es/pycharm/2025/06/la-guia-definitiva-de-las-plantillas-de-django/
-
